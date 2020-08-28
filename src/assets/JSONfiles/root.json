@@ -1,0 +1,189 @@
+[
+  {
+    "id": "/index",
+    "path": "/index",
+    "title": "首页",
+    "icon": "el-icon-s-home",
+    "hasChildren": false
+  },
+  {
+    "id": "/notice",
+    "path": "/notice",
+    "title": "通知公告",
+    "icon": "el-icon-message-solid",
+    "hasChildren": false
+  },
+  {
+    "id": "/excel",
+    "path": "/excel",
+    "title": "报表管理",
+    "icon": "el-icon-data-line",
+    "hasChildren": false
+  },
+  {
+    "id": "/user-center",
+    "path": "/user-center",
+    "title": "用户中心",
+    "icon": "el-icon-user-solid",
+    "hasChildren": true,
+    "children": [
+      {
+        "id": "/user",
+        "path": "/user",
+        "title": "用户管理",
+        "hasChildren": false
+      },
+      {
+        "id": "/backstage-user",
+        "path": "/backstage-user",
+        "title": "系统用户管理",
+        "hasChildren": false
+      },
+      {
+        "id": "/role",
+        "path": "/role",
+        "title": "角色管理",
+        "hasChildren": false
+      },
+      {
+        "id": "/root",
+        "path": "/root",
+        "title": "权限管理",
+        "hasChildren": false
+      }
+    ]
+  },
+  {
+    "id": "/files",
+    "path": "/files",
+    "title": "文件中心",
+    "icon": "el-icon-folder",
+    "hasChildren": true,
+    "children": [
+      {
+        "id": "/images",
+        "path": "/images",
+        "title": "图片管理",
+        "hasChildren": false
+      },
+      {
+        "id": "/files",
+        "path": "/files",
+        "title": "文件管理",
+        "hasChildren": false
+      }
+    ]
+  },
+  {
+    "id": "/public",
+    "path": "/public",
+    "title": "公共服务",
+    "icon": "el-icon-service",
+    "hasChildren": true,
+    "children": [
+      {
+        "id": "/region",
+        "path": "/region",
+        "title": "城市管理",
+        "hasChildren": false
+      },
+      {
+        "id": "/dictionaries",
+        "path": "/dictionaries",
+        "title": "字典管理",
+        "hasChildren": false
+      }
+    ]
+  },
+  {
+    "id": "/log",
+    "path": "/log",
+    "title": "日志记录",
+    "icon": "el-icon-edit-outline",
+    "hasChildren": false
+  },
+  {
+    "id": "/download",
+    "path": "/download",
+    "title": "下载中心",
+    "icon": "el-icon-download",
+    "hasChildren": false
+  },
+  {
+    "id": "/order",
+    "path": "/order",
+    "title": "订单管理",
+    "icon": "el-icon-s-order",
+    "hasChildren": false
+  },
+  {
+    "id": "/links",
+    "path": "/links",
+    "title": "外链管理",
+    "icon": "el-icon-link",
+    "hasChildren": false
+  },
+  {
+    "id": "/api",
+    "path": "/api",
+    "title": "接口管理",
+    "icon": "el-icon-connection",
+    "hasChildren": true,
+    "children": [
+      {
+        "id": "/system-api",
+        "path": "/system-api",
+        "title": "系统服务",
+        "hasChildren": false
+      },
+      {
+        "id": "/notice-api",
+        "path": "/notice-api",
+        "title": "通知服务",
+        "hasChildren": false
+      },
+      {
+        "id": "/excel-api",
+        "path": "/excel-api",
+        "title": "报表服务",
+        "hasChildren": false
+      },
+      {
+        "id": "/user-api",
+        "path": "/user-api",
+        "title": "用户服务",
+        "hasChildren": false
+      },
+      {
+        "id": "/files-api",
+        "path": "/files-api",
+        "title": "文件服务",
+        "hasChildren": false
+      },
+      {
+        "id": "/public-api",
+        "path": "/public-api",
+        "title": "公共服务",
+        "hasChildren": false
+      },
+      {
+        "id": "/log-api",
+        "path": "/log-api",
+        "title": "日志服务",
+        "hasChildren": false
+      },
+      {
+        "id": "/download-api",
+        "path": "/download-api",
+        "title": "下载服务",
+        "hasChildren": false
+      },
+      {
+        "id": "/order-api",
+        "path": "/order-api",
+        "title": "订单服务",
+        "hasChildren": false
+      }
+    ]
+  }
+]
